@@ -1,0 +1,803 @@
+[
+  {
+    "question": "Tại sao lá xoài nhà tôi bỗng dưng xuất hiện các đốm đen nhỏ rồi lan rộng ra làm lá bị cháy khô?",
+    "answer": "Đây là dấu hiệu đặc trưng của bệnh Thán thư (do nấm Colletotrichum gloeosporioides). Bệnh thường phát triển mạnh trong mùa mưa hoặc khi độ ẩm cao, gây hại trên cả lá, bông và trái."
+  },
+  {
+    "question": "Trái cam bị loét, có các vết sần sùi màu nâu và có quầng vàng xung quanh là bệnh gì vậy?",
+    "answer": "Cam của bạn đã bị bệnh Loét vi khuẩn (Citrus Canker). Bệnh này do vi khuẩn Xanthomonas gây ra, rất dễ lây lan qua nước mưa và dụng cụ cắt tỉa."
+  },
+  {
+    "question": "Cây ổi nhà tôi bị héo rũ rồi chết khô cả cây dù vẫn tưới nước đầy đủ, đó là bệnh gì?",
+    "answer": "Rất có thể cây ổi bị bệnh Héo rũ (do nấm Fusarium hoặc nấm tấn công vào rễ). Bạn cần kiểm tra xem gốc có bị thối hay có nấm trắng không, đồng thời kiểm tra tuyến trùng trong đất."
+  },
+  {
+    "question": "Làm sao để trị bệnh Phấn trắng trên bông xoài?",
+    "answer": "Bạn có thể sử dụng các thuốc có hoạt chất như Sulfur (lưu huỳnh), Hexaconazole hoặc Dinocap. Nên phun phòng khi bông vừa nhú và khi thời tiết có nhiều sương mù."
+  },
+  {
+    "question": "Bệnh vàng lá gân xanh trên cây cam có chữa được không?",
+    "answer": "Bệnh vàng lá gân xanh (Greening/HLB) hiện chưa có thuốc đặc trị. Cách tốt nhất là tiêu hủy cây bệnh, quản lý rầy chổng cánh (vật trung gian) và sử dụng giống sạch bệnh."
+  },
+  {
+    "question": "Trái xoài sắp thu hoạch bị thối ở phần cuống, có dịch mủ chảy ra là sao?",
+    "answer": "Đây là bệnh Thối đầu cuống trái xoài (do nấm Lasiodiplodia theobromae). Bạn nên tránh thu hoạch khi trời mưa và tránh làm trầy xước trái."
+  },
+  {
+    "question": "Trên lá ổi có những vệt màu nâu đỏ nhìn như rỉ sắt, đây là bệnh gì?",
+    "answer": "Đó là bệnh Tảo đỏ (đốm rong). Bệnh thường xuất hiện ở những vườn rậm rạp, thiếu ánh sáng. Bạn nên tỉa cành cho thông thoáng và phun thuốc gốc đồng."
+  },
+  {
+    "question": "Tại sao quả cam bị vàng và rụng hàng loạt khi còn xanh?",
+    "answer": "Nguyên nhân có thể do bệnh thối nâu trái (do nấm Phytophthora) hoặc do bị ruồi đục quả tấn công. Bạn cần kiểm tra kỹ bề mặt vỏ để phân biệt."
+  },
+  {
+    "question": "Cây xoài bị xì mủ ở thân và cành lớn thì phải làm thế nào?",
+    "answer": "Đây là bệnh Xì mủ nhựa. Bạn cần cạo sạch vết bệnh, sau đó bôi thuốc gốc đồng hoặc hoạt chất Metalaxyl trực tiếp vào vết thương để sát khuẩn và ngăn nấm lan rộng."
+  },
+  {
+    "question": "Bệnh ghẻ nhám trên cam quýt có làm hỏng ruột bên trong không?",
+    "answer": "Bệnh ghẻ nhám chủ yếu gây hại ngoài vỏ làm trái xấu xí, khó bán, nhưng thường không ảnh hưởng trực tiếp đến chất lượng bên trong nếu bệnh nhẹ."
+  },
+  {
+    "question": "Lá ổi bị xoăn tít lại và có những con côn trùng nhỏ màu trắng bám vào là bị gì?",
+    "answer": "Cây ổi của bạn đang bị Rệp sáp tấn công. Chúng hút nhựa làm lá biến dạng và tiết mật làm nấm bồ hóng phát triển đen kịt lá."
+  },
+  {
+    "question": "Làm cách nào để nhận biết sớm bệnh xì mủ rễ trên cây cam?",
+    "answer": "Dấu hiệu sớm là cây chậm phát triển, lá hơi vàng, phần vỏ gốc gần mặt đất có dấu hiệu úng nước, thối nâu và có mùi hôi."
+  },
+  {
+    "question": "Xoài bị đen bông và rụng trắng gốc sau một đêm mưa là bệnh gì?",
+    "answer": "Hiện tượng này thường do nấm Thán thư tấn công cực nhanh khi gặp mưa. Axit trong nước mưa làm trôi phấn hoa và tạo điều kiện cho nấm xâm nhiễm gây cháy bông."
+  },
+  {
+    "question": "Trái ổi bị đốm tròn màu nâu, vùng bệnh hơi lõm xuống là bệnh gì?",
+    "answer": "Đó là bệnh Thán thư trên ổi. Vết bệnh ban đầu nhỏ như đầu kim, sau đó lớn dần và làm trái bị thối khô."
+  },
+  {
+    "question": "Tại sao mặt dưới lá cam lại có những đường ngoằn ngoèo như đường hầm?",
+    "answer": "Đây là tác hại của Sâu vẽ bùa. Chúng ăn lớp biểu bì lá, tạo ra các đường rãnh. Vết thương này cũng là cửa ngõ cho vi khuẩn gây bệnh loét xâm nhập."
+  },
+  {
+    "question": "Bệnh nấm hồng trên cây xoài nhận biết như thế nào?",
+    "answer": "Bệnh xuất hiện trên cành với lớp nấm màu hồng nhạt, sau đó làm vỏ cành bị nứt và khô chết phần cành phía trên vết bệnh."
+  },
+  {
+    "question": "Cây cam bị vàng lá thối rễ nên dùng thuốc gì?",
+    "answer": "Bạn nên sử dụng thuốc có hoạt chất Metalaxyl, Mancozeb kết hợp với việc tưới các chế phẩm sinh học như Trichoderma để phục hồi hệ rễ."
+  },
+  {
+    "question": "Lớp muội đen phủ kín lá xoài có phải là bệnh không?",
+    "answer": "Đó là nấm Bồ hóng. Nấm này không ăn trực tiếp lá cây mà phát triển dựa trên dịch ngọt của rầy rệp tiết ra. Chỉ cần diệt sạch rầy rệp là nấm sẽ hết."
+  },
+  {
+    "question": "Trái ổi bị những lỗ nhỏ, bổ ra có dòi bên trong là bị gì?",
+    "answer": "Ổi đã bị Ruồi đục quả tấn công. Bạn nên sử dụng biện pháp bao trái sớm khi trái bằng quả trứng gà để phòng tránh."
+  },
+  {
+    "question": "Bệnh Chổi rồng trên cây nhãn có lây sang xoài không?",
+    "answer": "Không, bệnh Chổi rồng do nhện lông nhung gây ra đặc thù trên nhãn, không lây lan sang cây xoài."
+  },
+  {
+    "question": "Mưa dầm kéo dài khiến cam bị rụng trái, làm sao để hạn chế?",
+    "answer": "Cần thoát nước tốt cho vườn, bón thêm Kali để tăng sức chống chịu và phun phòng nấm Phytophthora ngay sau khi dứt mưa."
+  },
+  {
+    "question": "Dùng vôi bột quét gốc cây xoài có tác dụng gì?",
+    "answer": "Quét vôi giúp ngăn chặn nấm bệnh từ đất leo lên thân, đồng thời hạn chế các loại côn trùng và sâu đục thân đẻ trứng vào gốc."
+  },
+  {
+    "question": "Tại sao da trái cam lại bị nhám, màu cám (da cám)?",
+    "answer": "Nguyên nhân chính là do Nhện đỏ hoặc Nhện trắng gây ra. Chúng cào sướt lớp vỏ trái khi còn nói để hút nhựa, tạo thành các vết sẹo khi trái lớn."
+  },
+  {
+    "question": "Bệnh héo xanh vi khuẩn trên cây trồng có đặc điểm gì?",
+    "answer": "Cây bị héo đột ngột khi lá vẫn còn xanh. Nếu cắt ngang thân ngâm vào nước sẽ thấy dịch vi khuẩn màu trắng sữa chảy ra."
+  },
+  {
+    "question": "Làm thế nào để phòng bệnh thối trái ổi trong mùa mưa?",
+    "answer": "Cần tỉa cành tạo tán cho vườn thông thoáng, dọn sạch trái rụng dưới gốc và phun định kỳ các thuốc gốc đồng hoặc hoạt chất Carbendazim."
+  },
+  {
+    "question": "Bệnh ghẻ sẹo trên cây cam thường xuất hiện ở giai đoạn nào?",
+    "answer": "Bệnh thường tấn công mạnh ở giai đoạn cây ra đọt non và trái non, nhất là trong điều kiện thời tiết ẩm ướt."
+  },
+  {
+    "question": "Trái xoài bị biến dạng, da sần sùi và có nhựa chảy ra từ các vết nứt là bệnh gì?",
+    "answer": "Đây có thể là do thiếu Bo (vi lượng) kết hợp với sự tấn công của bọ trĩ ở giai đoạn trái non."
+  },
+  {
+    "question": "Tuyến trùng rễ trên cây ăn trái nguy hiểm như thế nào?",
+    "answer": "Tuyến trùng tạo ra các nốt sần trên rễ, làm rễ mất khả năng hút nước và dinh dưỡng, đồng thời tạo vết thương cho nấm xâm nhập gây thối rễ."
+  },
+  {
+    "question": "Lá cam bị vàng lốm đốm, không theo quy luật, có phải thiếu chất không?",
+    "answer": "Nếu vàng lốm đốm có thể là bệnh Tristaza (do virus). Bạn cần phân biệt với thiếu vi lượng (thường vàng đối xứng qua gân lá)."
+  },
+  {
+    "question": "Xoài bị khô mép lá rồi cháy dần vào trong là bị bệnh gì?",
+    "answer": "Có thể cây bị bệnh cháy lá do nấm hoặc do tình trạng mặn trong đất/nước tưới vượt ngưỡng cho phép."
+  },
+  {
+    "question": "Tại sao cây ổi ra rất nhiều hoa nhưng đều bị rụng khô?",
+    "answer": "Có thể do nấm thán thư gây khô bông hoặc do cây thiếu dinh dưỡng, đặc biệt là Bo và Canxi để đậu quả."
+  },
+  {
+    "question": "Trái cam bị 'mặt quỷ' là bệnh gì?",
+    "answer": "Đó là tên dân gian của bệnh ghẻ loét nặng, khiến vỏ trái biến dạng, lồi lõm sần sùi."
+  },
+  {
+    "question": "Bệnh nứt thân xì mủ trên xoài có lây qua dao kéo cắt tỉa không?",
+    "answer": "Có, vi khuẩn và bào tử nấm bám trên dụng cụ sẽ lây từ cây bệnh sang cây khỏe. Cần sát trùng dụng cụ bằng cồn hoặc nước vôi."
+  },
+  {
+    "question": "Lá ổi xuất hiện các đốm trắng bạc, sau đó lá khô rụng, là bị gì?",
+    "answer": "Đó là biểu hiện của Bọ trĩ hút chích. Chúng thường nằm ở mặt dưới lá và tập trung ở các đọt non."
+  },
+  {
+    "question": "Có nên phun thuốc hóa học khi xoài đang nở hoa rộ không?",
+    "answer": "Hạn chế tối đa. Phun thuốc lúc này có thể làm cháy nhụy hoa và xua đuổi các loài côn trùng thụ phấn như ong, ruồi."
+  },
+  {
+    "question": "Bệnh 'da lươn' trên trái xoài là do đâu?",
+    "answer": "Do nấm thán thư tấn công ở mức độ nhẹ hoặc do vết trầy xước từ gió gây ra khi trái còn nhỏ, tạo thành các vệt dài màu nâu."
+  },
+  {
+    "question": "Cây cam bị vàng lá theo kiểu từng cành một, rồi lan ra cả cây là bệnh gì?",
+    "answer": "Đây là dấu hiệu của nấm tấn công rễ ở một phía hoặc bệnh vàng lá gân xanh (HLB) đang ở giai đoạn đầu."
+  },
+  {
+    "question": "Làm sao để diệt kiến đen trên cây ổi?",
+    "answer": "Kiến đen thường đi kèm rệp sáp. Bạn cần diệt rệp sáp trước, sau đó dùng thuốc bột xua đuổi kiến quanh gốc."
+  },
+  {
+    "question": "Trái cam có các vết lõm màu nâu sẫm, khi bóc vỏ ra thì phần tép bị đắng là bệnh gì?",
+    "answer": "Đây thường là do nấm gây thối nâu trái tấn công sâu vào bên trong hoặc do hiện tượng rối loạn dinh dưỡng."
+  },
+  {
+    "question": "Tại sao xoài cát Hòa Lộc hay bị thối thịt trái (mềm thịt)?",
+    "answer": "Đây là hiện tượng rối loạn sinh lý do thiếu Canxi hoặc bón thừa Đạm (N), làm cấu trúc tế bào thịt trái lỏng lẻo."
+  },
+  {
+    "question": "Cây ổi bị đốm lá dùng thuốc gì hiệu quả?",
+    "answer": "Bạn có thể dùng các thuốc chứa hoạt chất Copper Oxychloride, Mancozeb hoặc Azoxystrobin để phun định kỳ."
+  },
+  {
+    "question": "Bệnh khô cành trên cây cam quýt do đâu?",
+    "answer": "Thường do nấm Colletotrichum hoặc do thiếu nước cục bộ, cũng có thể do sâu đục cành làm gián đoạn mạch dẫn."
+  },
+  {
+    "question": "Làm thế nào để hạn chế bệnh thán thư xoài mà không dùng quá nhiều thuốc hóa học?",
+    "answer": "Nên bao trái, tỉa cành cho vườn cực kỳ thông thoáng, bón phân cân đối và dùng các chế phẩm sinh học từ nấm đối kháng."
+  },
+  {
+    "question": "Trái ổi bị nứt khi gần chín là bệnh gì hay do đâu?",
+    "answer": "Thường không phải bệnh mà do chế độ tưới nước không đều (đang hạn gặp mưa lớn đột ngột) hoặc thiếu vi lượng Bo."
+  },
+  {
+    "question": "Cây cam bị đóng rong rêu đầy thân có sao không?",
+    "answer": "Rong rêu nhiều sẽ làm nghẹt lỗ thở của cây, tạo nơi trú ngụ cho nấm bệnh. Nên tẩy rửa bằng thuốc gốc đồng hoặc vôi."
+  },
+  {
+    "question": "Bệnh thối rễ xoài thường xuất hiện ở loại đất nào?",
+    "answer": "Thường xuất hiện ở đất sét nặng, thoát nước kém hoặc đất bị trũng, ngập úng trong mùa mưa."
+  },
+  {
+    "question": "Dấu hiệu cây ổi bị thiếu Magie (Mg) là gì?",
+    "answer": "Lá già sẽ có hiện tượng vàng ở phần thịt lá nhưng gân lá vẫn còn xanh, nhìn như hình xương cá."
+  },
+  {
+    "question": "Trái xoài bị háp nắng có phải là bệnh không?",
+    "answer": "Không, đó là tổn thương vật lý do ánh nắng mặt trời quá gắt chiếu trực tiếp vào trái, làm chết lớp tế bào vỏ."
+  },
+  {
+    "question": "Tại sao cây cam lại có hiện tượng chảy nhựa màu hổ phách ở gốc?",
+    "answer": "Đó là bệnh thối gốc chảy nhựa do nấm Phytophthora gây ra, rất nguy hiểm cho các vườn cam lâu năm."
+  },
+  {
+    "question": "Bao trái ổi sớm có giúp ngăn chặn hoàn toàn bệnh nấm không?",
+    "answer": "Bao trái giúp ngăn chặn tốt côn trùng và nấm từ bên ngoài, nhưng nếu bào tử nấm đã bám sẵn trên trái trước khi bao thì bệnh vẫn có thể phát triển bên trong."
+  },
+  {
+    "question": "Tại sao cây cam nhà tôi lá cứ nhỏ dần, dựng đứng lên như tai thỏ và có màu vàng?",
+    "answer": "Đây là triệu chứng điển hình của bệnh vàng lá gân xanh (HLB). Lá bị nhỏ lại, mọc thẳng đứng và biến màu do vi khuẩn tấn công vào mạch dẫn của cây."
+  },
+  {
+    "question": "Làm sao để biết cây xoài bị thiếu Kali?",
+    "answer": "Khi thiếu Kali, mép lá xoài già thường bị cháy khô từ chóp lá lan dần vào trong, trái thường nhỏ và không ngọt."
+  },
+  {
+    "question": "Con sâu đục cành xoài thường ẩn nấp ở đâu?",
+    "answer": "Sâu đục cành thường ẩn nấp bên trong lõi các cành non hoặc cành bánh tẻ. Bạn sẽ thấy các lỗ nhỏ trên cành có đùn phân và mạt cưa ra ngoài."
+  },
+  {
+    "question": "Trái ổi bị những chấm đen li ti, sờ vào thấy nhám tay là bị gì?",
+    "answer": "Đây là dấu hiệu của bệnh Ghẻ nhám (do nấm Venturia inaequalis). Nấm tấn công lớp biểu bì trái làm vỏ bị sần sùi đen lại."
+  },
+  {
+    "question": "Tại sao hoa cam lại bị rụng hàng loạt sau khi đậu quả non?",
+    "answer": "Nguyên nhân có thể do sốc nhiệt, thiếu dinh dưỡng (đặc biệt là Bo) hoặc do nấm Colletotrichum tấn công gây thối cuống hoa."
+  },
+  {
+    "question": "Cây xoài đang ra bông có nên tưới nước trực tiếp lên bông không?",
+    "answer": "Không nên. Tưới nước lên bông dễ làm trôi phấn hoa, tăng độ ẩm gây nấm thán thư và phấn trắng phát triển mạnh."
+  },
+  {
+    "question": "Làm thế nào để trị dứt điểm rệp sáp trên gốc cây ổi?",
+    "answer": "Bạn nên dùng thuốc có hoạt chất Spirotetramat hoặc Imidacloprid kết hợp với dầu khoáng. Cần dọn sạch cỏ rác quanh gốc để mất nơi trú ngụ của chúng."
+  },
+  {
+    "question": "Tại sao vỏ quả cam lại bị dày, ít nước và vị rất chua?",
+    "answer": "Hiện tượng này thường do bón quá nhiều phân Đạm (N) và thiếu Lân (P) hoặc Kali (K) trong giai đoạn nuôi trái."
+  },
+  {
+    "question": "Con bọ trĩ gây hại thế nào trên bông xoài?",
+    "answer": "Bọ trĩ hút nhựa làm bông bị khô cháy, không thụ phấn được. Nếu đậu trái, trái sẽ bị sẹo đen (da lươn) và biến dạng."
+  },
+  {
+    "question": "Cây ổi bị vàng lá cả cây nhưng gân lá vẫn xanh đậm là thiếu chất gì?",
+    "answer": "Đó là biểu hiện của thiếu Sắt (Fe). Thường xảy ra ở vùng đất có độ pH cao hoặc đất quá ẩm ướt làm rễ khó hấp thu."
+  },
+  {
+    "question": "Bệnh loét vi khuẩn trên cam có lây qua gió không?",
+    "answer": "Có, vi khuẩn Xanthomonas lây lan rất mạnh qua gió và nước mưa, xâm nhập qua các vết thương hở hoặc lỗ khí khổng trên lá."
+  },
+  {
+    "question": "Tại sao xoài bị hiện tượng 'nghẹn bông' không ra được?",
+    "answer": "Do thời tiết gặp lạnh đột ngột hoặc do xử lý Paclobutrazol quá liều mà không bón phân lân và kali đủ để kích thích."
+  },
+  {
+    "question": "Trái ổi bị thối nhũn, có mùi hôi và chảy nước là bệnh gì?",
+    "answer": "Đây là bệnh Thối mềm (do vi khuẩn Erwinia gây ra). Thường xuất hiện trên những trái bị trầy xước hoặc bị côn trùng châm chích."
+  },
+  {
+    "question": "Làm sao để phòng ngừa sâu đục thân cho cây cam?",
+    "answer": "Bạn nên quét vôi ở gốc cây định kỳ, tỉa bỏ cành già yếu và dùng dây kẽm soi lỗ để bắt sâu hoặc bơm thuốc trực tiếp vào lỗ sâu đục."
+  },
+  {
+    "question": "Xoài bị nứt trái khi trời mưa lớn sau đợt hạn kéo dài, xử lý sao?",
+    "answer": "Cần duy trì độ ẩm đất ổn định, không để quá khô. Bổ sung thêm Canxi-Bo để tăng độ dẻo dai cho vách tế bào vỏ trái."
+  },
+  {
+    "question": "Tại sao lá cam lại bị cuộn tròn và có tơ trắng bám bên trong?",
+    "answer": "Đây là do sâu cuốn lá gây ra. Chúng nhả tơ kéo mép lá lại để làm tổ và ăn phần thịt lá bên trong."
+  },
+  {
+    "question": "Cây ổi có hiện tượng chảy nhựa từ thân, lá bị héo vàng rụng sớm?",
+    "answer": "Cây có thể bị bệnh Xì mủ do nấm Phytophthora hoặc bị sâu đục thân phá hoại phần mạch dẫn phía dưới vỏ."
+  },
+  {
+    "question": "Bệnh đốm lá hình mắt chim trên cây ăn trái là gì?",
+    "answer": "Đó là một dạng bệnh do nấm Cercospora gây ra, tạo thành các đốm có tâm màu xám trắng và viền nâu sẫm nhìn như mắt chim."
+  },
+  {
+    "question": "Làm cách nào để tăng độ ngọt cho cam sành?",
+    "answer": "Bón bổ sung phân Kali trắng (K2SO4) giai đoạn 1-2 tháng trước khi thu hoạch và hạn chế tưới nước quá nhiều gần ngày hái."
+  },
+  {
+    "question": "Bệnh chổi rồng có xuất hiện trên xoài không?",
+    "answer": "Xoài không bị chổi rồng như nhãn, nhưng có hiện tượng 'dị dạng bông' nhìn khá giống, do nấm Fusarium kết hợp với nhện gây ra."
+  },
+  {
+    "question": "Tại sao rễ cây ổi lại có những u sưng to như hạt đậu?",
+    "answer": "Cây đã bị Tuyến trùng rễ tấn công. Các u sừng này cản trở việc hút nước, làm cây còi cọc và dễ bị nấm thối rễ xâm nhập."
+  },
+  {
+    "question": "Rầy chổng cánh gây hại cho cam quýt như thế nào?",
+    "answer": "Rầy hút nhựa làm đọt non bị khô quăn, nhưng nguy hiểm nhất là chúng truyền vi khuẩn gây bệnh vàng lá gân xanh (HLB)."
+  },
+  {
+    "question": "Xoài bị hiện tượng 'hột lép' và rụng trái non rất nhiều là sao?",
+    "answer": "Có thể do thụ phấn không hoàn toàn hoặc do thiếu Bo. Ngoài ra, việc phun thuốc kích thích quá liều cũng gây rụng trái hột lép."
+  },
+  {
+    "question": "Làm thế nào để diệt rêu xanh bám đầy trên tán lá ổi?",
+    "answer": "Phun các thuốc gốc đồng (như Bordeaux hoặc Copper Zinc) và tỉa bớt cành phía trong tán để ánh nắng xuyên qua được."
+  },
+  {
+    "question": "Tại sao trái cam bị rụng mà cuống vẫn còn dính trên cành?",
+    "answer": "Đây là hiện tượng rụng sinh lý do cây quá tải hoặc do nấm tấn công vào phần tiếp giáp giữa trái và cuống."
+  },
+  {
+    "question": "Bệnh nấm bồ hóng có làm chết cây xoài không?",
+    "answer": "Thường không làm chết cây ngay nhưng làm đen lá, cản trở quang hợp khiến cây suy yếu, trái bị xấu và giảm năng suất."
+  },
+  {
+    "question": "Dùng thuốc diệt cỏ trong vườn cam có ảnh hưởng gì không?",
+    "answer": "Rất nguy hiểm. Thuốc diệt cỏ có thể làm cháy rễ tơ, khiến cây bị ngộ độc, rụng lá và dễ bị nấm bệnh tấn công gốc."
+  },
+  {
+    "question": "Tại sao lá ổi non bị cháy rìa lá và biến dạng?",
+    "answer": "Nguyên nhân phổ biến là do Bọ trĩ hoặc Rầy xanh hút chích lúc lá còn cực non, hoặc do phun thuốc quá liều gây cháy lá."
+  },
+  {
+    "question": "Cây xoài bị hiện tượng 'ra hoa lá' (vừa hoa vừa lá) là do đâu?",
+    "answer": "Do thời tiết lúc phân hóa mầm hoa quá nóng hoặc tưới nhiều đạm, làm cây chuyển dịch từ sinh sản sang sinh trưởng sinh dưỡng."
+  },
+  {
+    "question": "Làm sao để phân biệt bệnh ghẻ nhám và bệnh loét trên cam?",
+    "answer": "Ghẻ nhám thường sần sùi lồi lên và không có quầng vàng xung quanh, còn bệnh loét vi khuẩn thì vết bệnh thường lõm hoặc bằng và có quầng vàng rực bao quanh."
+  },
+  {
+    "question": "Trái ổi bị sượng, cứng và không có vị là bị sao?",
+    "answer": "Nguyên nhân thường do thu hoạch quá non hoặc cây bị thiếu Kali và Magie trầm trọng trong quá trình nuôi trái."
+  },
+  {
+    "question": "Tại sao thân cây xoài già thường bị nứt vỏ dọc theo thân?",
+    "answer": "Nếu vết nứt khô thì là sự phát triển tự nhiên của vỏ. Nếu vết nứt có chảy nhựa đen thì đó là dấu hiệu của nấm bệnh xâm nhiễm."
+  },
+  {
+    "question": "Con rầy bông xoài gây hại mạnh nhất vào lúc nào?",
+    "answer": "Rầy bông xoài gây hại mạnh nhất khi cây vừa nhú nụ hoa cho đến khi hoa nở rộ. Chúng hút nhựa làm bông khô đen và rụng."
+  },
+  {
+    "question": "Tại sao lá cam bị vàng ở gân chính nhưng thịt lá còn xanh?",
+    "answer": "Đây là dấu hiệu thiếu Mangan (Mn) hoặc đôi khi là biểu hiện sớm của sự tổn thương bộ rễ."
+  },
+  {
+    "question": "Làm thế nào để bảo vệ trái ổi không bị ruồi đục quả mà không dùng thuốc?",
+    "answer": "Biện pháp hiệu quả nhất là dùng túi bao chuyên dụng (túi xốp và túi nilon) ngay khi trái lớn bằng ngón tay cái."
+  },
+  {
+    "question": "Cây xoài bị hiện tượng 'đen gai' trên trái non là bệnh gì?",
+    "answer": "Đây thường là do vi khuẩn hoặc nấm thán thư tấn công vào các lỗ khí khổng trên vỏ trái non khi gặp sương muối hoặc mưa đêm."
+  },
+  {
+    "question": "Tại sao vườn cam hay bị nhện đỏ tấn công vào mùa khô?",
+    "answer": "Nhện đỏ ưa thích điều kiện khô nóng và ẩm độ thấp. Chúng sinh sản rất nhanh và hút nhựa làm lá bị mất màu xanh, chuyển sang màu bạc trắng."
+  },
+  {
+    "question": "Cây ổi bị chết nhánh dần từ ngọn xuống gốc là bệnh gì?",
+    "answer": "Có thể là bệnh Khô cành (Dieback) do nấm hoặc do sâu đục lỗ trong cành làm tắc mạch dẫn dinh dưỡng."
+  },
+  {
+    "question": "Cách xử lý đất vườn cũ trước khi trồng mới cây cam quýt?",
+    "answer": "Cần rắc vôi bột, phơi ải đất ít nhất 1 tháng và bón lót nhiều phân hữu cơ hoai mục kết hợp nấm đối kháng Trichoderma."
+  },
+  {
+    "question": "Tại sao xoài bị hiện tượng 'trái cóc' (trái không lớn được)?",
+    "answer": "Do phấn hoa bị hỏng (thời tiết lạnh/mưa) dẫn đến thụ phấn không nhân thực, trái chỉ phát triển lớp vỏ mà không có phôi hạt bên trong."
+  },
+  {
+    "question": "Bệnh héo rũ trên cây ổi có lây lan qua nguồn nước không?",
+    "answer": "Có, bào tử nấm gây bệnh héo rũ có thể trôi theo nước tưới hoặc nước mưa từ gốc cây bệnh sang cây khỏe."
+  },
+  {
+    "question": "Làm sao để hạn chế hiện tượng cam bị sượng (trái khô, không có nước)?",
+    "answer": "Cần cung cấp đủ nước giai đoạn trái lớn và tránh bón phân Đạm quá muộn gần lúc thu hoạch."
+  },
+  {
+    "question": "Con mọt đục cành xoài nhỏ xíu làm cành héo rất nhanh, trị thế nào?",
+    "answer": "Cần cắt bỏ và đốt ngay những cành bị héo. Phun thuốc có tính thấm sâu vào các cành còn lại để phòng ngừa mọt đẻ trứng."
+  },
+  {
+    "question": "Tại sao lá cam già thường bị đốm vàng hình tròn, sau đó rụng?",
+    "answer": "Có thể cây bị bệnh Đốm lá mỡ (Greasy spot) do nấm Mycosphaerella citri gây ra, thường phát triển trong mùa mưa."
+  },
+  {
+    "question": "Cây ổi trồng trong chậu bị vàng lá, rụng bông là vì sao?",
+    "answer": "Thường do bị úng nước gây thối rễ hoặc do thiếu dinh dưỡng vì không gian đất trong chậu quá hẹp."
+  },
+  {
+    "question": "Tại sao thịt quả xoài chín có các sợi tơ cứng (xơ)?",
+    "answer": "Chủ yếu do giống, nhưng một phần do thiếu nước và thiếu phân Lân trong quá trình hình thành thịt quả."
+  },
+  {
+    "question": "Con sâu đục trái cam thường tấn công vào vị trí nào?",
+    "answer": "Chúng thường đục từ phần cuống trái hoặc nơi hai trái chạm vào nhau, tạo vết thương khiến trái bị thối và rụng."
+  },
+  {
+    "question": "Làm thế nào để phục hồi cây ổi sau khi bị ngập úng?",
+    "answer": "Phải xới nhẹ đất cho thoáng khí, không bón phân hóa học ngay mà dùng kích rễ và phun phân bón lá cho đến khi cây ra đọt mới."
+  },
+  {
+    "question": "Bệnh nứt vỏ chảy nhựa trên xoài có liên quan đến xì mủ không?",
+    "answer": "Có, đây thường là các biểu hiện khác nhau của cùng một nhóm nấm Phytophthora hoặc Botryosphaeria tấn công vào thân cây."
+  },
+  {
+    "question": "Tại sao trái cam sành khi chín lại bị đỏ đít (chín sớm cục bộ)?",
+    "answer": "Đây là triệu chứng đặc trưng của cây bị vàng lá gân xanh (HLB) - trái chín ngược từ dưới lên và hạt thường bị lép đen."
+  },
+  {
+    "question": "Tại sao trái xoài nhà tôi có những vết nứt dài, thịt bên trong bị thâm đen dù vỏ vẫn xanh?",
+    "answer": "Đây là hiện tượng nội nhiệt (Internal Breakdown) hoặc do thiếu Canxi nghiêm trọng kết hợp với sự thay đổi độ ẩm đất đột ngột làm tế bào thịt trái bị vỡ."
+  },
+  {
+    "question": "Con rầy mềm (Aphid) trên cây cam thường tập trung ở đâu?",
+    "answer": "Rầy mềm thường tập trung dày đặc ở các chồi non, mặt dưới lá non và nụ hoa. chúng hút nhựa làm lá biến dạng và truyền virus Tristeza."
+  },
+  {
+    "question": "Lá ổi bị các vết đốm tròn, rìa đốm có màu tím sẫm là bệnh gì?",
+    "answer": "Đó là bệnh Đốm lá nấm Cercospora. Bệnh này thường gây hại mạnh khi vườn quá rậm rạp và có độ ẩm không khí cao."
+  },
+  {
+    "question": "Làm sao để xử lý hiện tượng xoài ra hoa cách năm (năm trúng năm thất)?",
+    "answer": "Cần điều chỉnh lượng phân bón sau thu hoạch, tỉa cành đúng kỹ thuật và có thể sử dụng các chất điều hòa sinh trưởng như Paclobutrazol để kích thích mầm hoa hàng năm."
+  },
+  {
+    "question": "Tại sao vỏ quả cam lại xuất hiện các vết đốm hình tròn như đồng tiền màu nâu đỏ?",
+    "answer": "Có thể là bệnh Đốm nâu (Brown spot) do nấm Alternaria gây ra. Bệnh này tấn công mạnh trên các giống quýt và cam mật."
+  },
+  {
+    "question": "Trên thân cây ổi có những lỗ nhỏ li ti và có bột gỗ đùn ra, đó là gì?",
+    "answer": "Cây ổi đã bị mọt đục thân tấn công. Bạn cần dùng dây kẽm soi lỗ hoặc bơm thuốc trừ sâu có tính xông hơi mạnh vào lỗ rồi trám lại bằng đất sét."
+  },
+  {
+    "question": "Bệnh thối bông xoài do vi khuẩn khác gì so với do nấm thán thư?",
+    "answer": "Thối bông do vi khuẩn thường làm bông có mùi hôi thối đặc trưng, vết bệnh nhũn nước và lây lan nhanh hơn trong điều kiện độ ẩm cực cao."
+  },
+  {
+    "question": "Tại sao trái cam bị 'bồ hóng' đen kịt dù tôi không thấy rệp sáp?",
+    "answer": "Có thể do các loài côn trùng chích hút khác như rầy phấn trắng hoặc rầy mềm ở phía trên cao tiết dịch ngọt rơi xuống các trái bên dưới."
+  },
+  {
+    "question": "Cây ổi bị rụng lá già rất nhanh, lá có màu đỏ tía là thiếu chất gì?",
+    "answer": "Đây thường là dấu hiệu của thiếu Lân (P). Cây thiếu lân sẽ bị đình trệ sinh trưởng, lá chuyển màu sẫm hoặc đỏ tía rồi rụng."
+  },
+  {
+    "question": "Làm thế nào để trị bệnh đốm vi khuẩn trên trái xoài non?",
+    "answer": "Sử dụng các loại thuốc gốc đồng hoặc các hoạt chất kháng sinh như Kasugamycin, Streptomycin để phun khi trái vừa đậu."
+  },
+  {
+    "question": "Tại sao cây cam lại có hiện tượng 'chết ngược' từ các cành nhỏ vào thân chính?",
+    "answer": "Do nấm Diaporthe citri gây ra bệnh khô cành. Cần cắt bỏ phần cành chết sâu vào phần gỗ khỏe mạnh 5-10cm và bôi thuốc gốc đồng."
+  },
+  {
+    "question": "Con ngài chích hút trái xoài thường hoạt động vào lúc nào?",
+    "answer": "Ngài chích hút hoạt động vào ban đêm. Chúng dùng vòi nhọn đâm xuyên vỏ trái để hút dịch, tạo vết thương cho nấm thối xâm nhập."
+  },
+  {
+    "question": "Lá ổi bị bạc trắng một nửa hoặc cả lá nhưng không phải do nhện đỏ là bị sao?",
+    "answer": "Có thể cây bị ngộ độc thuốc bảo vệ thực vật hoặc bị sốc nhiệt khi thay đổi thời tiết đột ngột (nắng gắt sau mưa)."
+  },
+  {
+    "question": "Tại sao trái cam bị sượng, múi khô cứng nhưng vỏ vẫn bóng đẹp?",
+    "answer": "Đây là hiện tượng rối loạn sinh lý 'Granulation'. Nguyên nhân do cây quá sung sức, bón quá nhiều đạm hoặc thu hoạch quá muộn."
+  },
+  {
+    "question": "Bệnh mốc hồng trên gốc cây xoài có nguy hiểm không?",
+    "answer": "Rất nguy hiểm, nếu lớp nấm bao quanh toàn bộ chu vi gốc cây, mạch dẫn sẽ bị cắt đứt hoàn toàn khiến cây chết khô."
+  },
+  {
+    "question": "Làm sao để nhận biết cây ổi bị ngộ độc phân bón hóa học?",
+    "answer": "Rìa lá sẽ bị cháy sạm nhanh chóng, lá non bị biến dạng, rễ tơ bị đen và cây héo rũ dù đất vẫn đủ ẩm."
+  },
+  {
+    "question": "Tại sao quả cam bị rụng sau khi phun thuốc trừ sâu quá liều?",
+    "answer": "Do thuốc gây sốc sinh lý cho cây, làm tăng nồng độ Ethylene nội sinh ở cuống trái, dẫn đến hình thành tầng rời và gây rụng."
+  },
+  {
+    "question": "Hiện tượng 'xì mủ trái xoài' khác gì với xì mủ thân?",
+    "answer": "Xì mủ trái thường do vi khuẩn tấn công khi vỏ trái bị tổn thương cơ giới, tạo ra các giọt nhựa nhỏ đọng trên vỏ, làm giảm giá trị thương phẩm."
+  },
+  {
+    "question": "Tại sao cây cam trồng từ hạt lâu ra trái hơn cây chiết?",
+    "answer": "Cây trồng hạt phải trải qua giai đoạn 'trẻ hóa' dài hơn để đạt độ thuần thục về sinh lý. Cây chiết/ghép mang đặc tính từ cây mẹ nên ra trái sớm hơn."
+  },
+  {
+    "question": "Con rệp dính trên cây ổi có giống rệp sáp không?",
+    "answer": "Rệp dính có lớp vỏ cứng bên ngoài màu nâu hoặc vàng, không có lớp bông trắng như rệp sáp, nhưng cả hai đều hút nhựa cây."
+  },
+  {
+    "question": "Làm thế nào để phòng bệnh thối nâu trái cam sau khi thu hoạch?",
+    "answer": "Cần rửa trái bằng nước sạch, để khô ráo hoàn toàn và có thể xử lý qua dung dịch nước ấm (khoảng 45°C) hoặc thuốc trừ nấm nhẹ trước khi đóng thùng."
+  },
+  {
+    "question": "Tại sao hoa xoài bị khô đen khi gặp sương muối?",
+    "answer": "Sương muối có tính axit mạnh và làm hạ nhiệt độ đột ngột, gây cháy các bộ phận nhạy cảm của hoa. Cần phun nước rửa sương vào sáng sớm."
+  },
+  {
+    "question": "Cây cam bị 'vàng lá thiếu kẽm' có biểu hiện gì?",
+    "answer": "Lá non có kích thước nhỏ hơn bình thường, các gân lá vẫn xanh nhưng phần thịt lá giữa các gân bị vàng trắng rõ rệt."
+  },
+  {
+    "question": "Tại sao cây ổi bị rụng quả non khi tôi mới bón phân đạm?",
+    "answer": "Bón quá nhiều đạm kích thích cây tập trung dinh dưỡng để phát triển cành lá (sinh trưởng sinh dưỡng), gây cạnh tranh và làm rụng quả non."
+  },
+  {
+    "question": "Bệnh mốc xám (Botrytis) trên hoa xoài xuất hiện khi nào?",
+    "answer": "Bệnh thường xuất hiện khi thời tiết ẩm lạnh, kéo dài. Hoa bị bao phủ bởi lớp nấm màu xám và rụng rất nhanh."
+  },
+  {
+    "question": "Làm sao để diệt kiến vương đục gốc cây cam?",
+    "answer": "Dùng thuốc trừ sâu dạng hạt rắc quanh gốc hoặc dùng bông gòn thấm thuốc nhét vào lỗ đục và bịt kín lại bằng đất sét."
+  },
+  {
+    "question": "Tại sao lá xoài có những đốm màu cam nổi lên như mụn ghẻ?",
+    "answer": "Đây là triệu chứng của bệnh Rỉ sắt (Rust). Những mụn cam đó chính là ổ bào tử nấm chuẩn bị phát tán."
+  },
+  {
+    "question": "Con bọ xít muỗi gây hại trên cây ổi như thế nào?",
+    "answer": "Chúng dùng vòi chích vào đọt non và trái non làm xuất hiện các đốm đen lõm xuống. Đọt non bị chích thường bị khô cháy."
+  },
+  {
+    "question": "Tại sao trái cam bị nám một mảng màu nâu nhạt phía hướng nắng?",
+    "answer": "Đây là hiện tượng cháy nắng (Sunscald). Tế bào vỏ bị nhiệt độ cao phá hủy, tạo thành mảng nám khô."
+  },
+  {
+    "question": "Có nên tỉa cành xoài vào mùa mưa không?",
+    "answer": "Hạn chế tỉa vào mùa mưa vì độ ẩm cao khiến nấm bệnh dễ dàng xâm nhập qua vết cắt hở. Nếu tỉa, phải bôi thuốc sát khuẩn ngay."
+  },
+  {
+    "question": "Bệnh thối rễ Phytophthora trên cam lây lan mạnh nhất khi nào?",
+    "answer": "Mạnh nhất khi vườn bị ngập úng hoặc đọng nước cục bộ, vì bào tử nấm có đuôi và có thể bơi trong nước để tìm rễ cây mới."
+  },
+  {
+    "question": "Làm thế nào để cây ổi ra trái quanh năm?",
+    "answer": "Cần thực hiện kỹ thuật bấm đọt liên tục để kích thích các chồi bên mang hoa phát triển, kết hợp với chế độ phân bón cân đối."
+  },
+  {
+    "question": "Tại sao quả xoài bị 'xanh vỏ đỏ lòng' (chín không đều)?",
+    "answer": "Thường do bón dư đạm vào giai đoạn cuối hoặc do thiếu ánh sáng trong tán cây làm vỏ không lên màu được dù thịt trái đã chín."
+  },
+  {
+    "question": "Con rầy phấn trắng trên cam quýt có nguy hiểm không?",
+    "answer": "Có, chúng hút nhựa làm suy cây và tiết mật gây nấm bồ hóng, đồng thời rất khó tiêu diệt vì có lớp sáp bảo vệ."
+  },
+  {
+    "question": "Tại sao lá ổi bị hiện tượng quăn queo, mặt dưới có những nốt u sần?",
+    "answer": "Đây là tác hại của một loại nhện gây u sưng hoặc do côn trùng thuộc họ Psyllid đẻ trứng vào mô lá."
+  },
+  {
+    "question": "Bệnh chết nhát (héo xanh) trên cây con ở vườn ươm xử lý sao?",
+    "answer": "Cần tiêu hủy cây bệnh, khử trùng đất bằng vôi hoặc thuốc tím và giảm mật độ cây con để tạo độ thông thoáng."
+  },
+  {
+    "question": "Tại sao trái cam có mùi vị lạ (mùi dầu) khi ăn?",
+    "answer": "Có thể do phun thuốc sâu chứa dầu khoáng quá sát ngày thu hoạch hoặc cây bị rối loạn trao đổi chất tinh dầu trong vỏ."
+  },
+  {
+    "question": "Cây xoài bị 'mù đầu đọt' không ra lá mới được là vì sao?",
+    "answer": "Do bọ trĩ hoặc nhện đỏ tấn công làm hỏng đỉnh sinh trưởng, hoặc cây bị thiếu Boron trầm trọng."
+  },
+  {
+    "question": "Làm thế nào để phân biệt cây cam bị thiếu nước và cây bị thối rễ?",
+    "answer": "Cây thiếu nước sẽ tươi lại sau khi tưới. Cây thối rễ sẽ vẫn héo rũ dù đất đang rất ẩm ướt."
+  },
+  {
+    "question": "Tại sao lá ổi bị các vệt trắng loang lổ như bị đổ vôi?",
+    "answer": "Đây là dấu hiệu của bệnh Phấn trắng (Oidium). Lớp bột trắng chính là các sợi nấm và bào tử bao phủ bề mặt lá."
+  },
+  {
+    "question": "Tác dụng của việc quét vôi trộn đồng lên thân cây cam quýt?",
+    "answer": "Giúp diệt trừ rong rêu, nấm hồng và ngăn chặn nấm Phytophthora tấn công gây thối gốc."
+  },
+  {
+    "question": "Tại sao trái xoài bị rỗng hạt hoặc hạt có màu nâu xám?",
+    "answer": "Do bị sâu đục hạt xoài tấn công khi trái còn non hoặc do hiện tượng thụ phấn giả (Parthenocarpy)."
+  },
+  {
+    "question": "Con rệp sáp có thể sống dưới đất không?",
+    "answer": "Có, một số loài rệp sáp sống bám vào rễ cây (rệp sáp rễ), gây suy cây rất khó phát hiện từ bên trên."
+  },
+  {
+    "question": "Tại sao vỏ trái ổi có những vết sẹo ngang dọc như lưới?",
+    "answer": "Do bọ trĩ hoặc nhện cào sướt vỏ khi trái còn rất nhỏ (giai đoạn mới rụng cánh hoa)."
+  },
+  {
+    "question": "Bệnh virus Tristeza trên cam có lây qua mắt ghép không?",
+    "answer": "Có, đây là con đường lây lan chủ yếu nhất. Luôn sử dụng mắt ghép từ nguồn cây mẹ đã được kiểm chứng sạch bệnh."
+  },
+  {
+    "question": "Tại sao xoài bị hiện tượng 'chảy nhựa cuống trái' sau khi hái?",
+    "answer": "Do nhựa xoài có tính axit mạnh, nếu chảy dính vào vỏ trái sẽ gây cháy vỏ và thối đầu cuống. Cần để trái nằm úp xuống cho chảy hết nhựa."
+  },
+  {
+    "question": "Làm sao để hạn chế cây cam bị đổ ngã trong mùa gió bão?",
+    "answer": "Nên cắt tỉa hạ thấp độ cao tán cây, tạo các khe hở cho gió đi qua và dùng cọc chống chắc chắn cho những cây mang nhiều trái."
+  },
+  {
+    "question": "Tại sao lá ổi non có màu trắng bạch (biến bạch)?",
+    "answer": "Do thiếu sắt cực hạn hoặc cây bị ngộ độc một số loại kim loại nặng trong đất làm mất khả năng tổng hợp diệp lục."
+  },
+  {
+    "question": "Bệnh đốm đen (Black spot) trên trái cam ảnh hưởng thế nào?",
+    "answer": "Làm vỏ trái có các đốm đen xấu xí, có thể gây rụng trái hàng loạt trước thu hoạch và làm trái thối nhanh khi vận chuyển."
+  },
+  {
+    "question": "Tại sao phải bón phân hữu cơ hoai mục thay vì phân tươi cho cây ăn trái?",
+    "answer": "Phân tươi chứa nhiều vi sinh vật gây bệnh, mầm cỏ dại và tỏa nhiệt khi phân hủy làm cháy rễ cây. Phân hoai mục an toàn và giúp cải tạo đất tốt hơn."
+  },
+  {
+    "question": "Tại sao cây cam bị hiện tượng lá mọc dày thành chùm, đốt thân ngắn lại?",
+    "answer": "Đây là dấu hiệu của sự thiếu hụt Kẽm (Zn) trầm trọng hoặc do virus gây bệnh lùn bụi. Cần kiểm tra lại độ pH đất vì đất quá kiềm sẽ làm cây khó hấp thụ Kẽm."
+  },
+  {
+    "question": "Con xén tóc đục thân xoài thường đẻ trứng vào đâu?",
+    "answer": "Xén tóc thường đẻ trứng vào các kẽ nứt của vỏ cây hoặc các vết thương ở gốc và thân chính. Sâu non nở ra sẽ đục sâu vào phần gỗ."
+  },
+  {
+    "question": "Lá ổi bị hiện tượng 'da báo' (vàng xanh xen kẽ không đều) là bệnh gì?",
+    "answer": "Có thể cây bị nhiễm Virus Mosaic (khảm lá). Bệnh này làm giảm khả năng quang hợp và khiến trái bị nhỏ, biến dạng."
+  },
+  {
+    "question": "Làm thế nào để trị nấm hồng trên cành cam quýt hiệu quả nhất?",
+    "answer": "Cần cắt bỏ cành bị nặng và đốt bỏ. Với cành lớn, dùng bàn chải sắt cạo nhẹ lớp nấm rồi bôi thuốc có hoạt chất Validamycin hoặc Hexaconazole."
+  },
+  {
+    "question": "Tại sao xoài cát Hòa Lộc hay bị nứt cuống khi chín?",
+    "answer": "Do sự chênh lệch áp suất thẩm thấu khi độ ẩm không khí thay đổi đột ngột hoặc bón quá nhiều phân đạm làm vỏ quả phát triển không kịp so với thịt quả."
+  },
+  {
+    "question": "Hiện tượng 'nghẹt rễ' trên cây ổi vào mùa mưa xử lý thế nào?",
+    "answer": "Cần đào rãnh thoát nước ngay lập tức, xới nhẹ mặt đất để rễ thở và phun phân bón lá có chứa Axit Amin để trợ lực cho cây."
+  },
+  {
+    "question": "Tại sao trái cam bị rụng hàng loạt sau khi bón phân chuồng chưa hoai mục?",
+    "answer": "Phân tươi tỏa nhiệt mạnh khi phân hủy làm cháy rễ tơ, đồng thời tạo điều kiện cho nấm Fusarium tấn công gây thối rễ và rụng trái."
+  },
+  {
+    "question": "Con rầy bông xoài có làm héo đọt non không?",
+    "answer": "Có, rầy bông xoài không chỉ phá hoa mà còn chích hút nhựa ở các đọt non, làm đọt bị chùn lại và lá non bị xoăn."
+  },
+  {
+    "question": "Làm sao để nhận biết cây ổi bị thiếu hụt Canxi qua lá?",
+    "answer": "Lá non thường bị biến dạng, cong queo, chóp lá bị cháy đen và các lá mới ra có xu hướng nhỏ, giòn, dễ rụng."
+  },
+  {
+    "question": "Tại sao vỏ trái xoài lại có các đường vân như mạng nhện màu trắng?",
+    "answer": "Đây thường là vết tích của các loài nhện trắng hoặc bọ trĩ phá hoại từ giai đoạn trái non, để lại sẹo khi trái lớn dần."
+  },
+  {
+    "question": "Bệnh thối rễ trên cam có liên quan gì đến kiến không?",
+    "answer": "Kiến không gây thối rễ trực tiếp, nhưng chúng tha rệp sáp xuống rễ. Rệp hút nhựa tạo vết thương giúp nấm thối xâm nhập."
+  },
+  {
+    "question": "Tại sao cây ổi đang xanh tốt bỗng dưng héo rũ trong vòng 2-3 ngày?",
+    "answer": "Đây là triệu chứng của bệnh héo rũ do nấm Fusarium hoặc vi khuẩn Ralstonia. Cây bị tắc mạch dẫn nên không thể đưa nước lên lá."
+  },
+  {
+    "question": "Làm thế nào để hạn chế hiện tượng xoài bị 'vũ điệu da nâu' (nám vỏ)?",
+    "answer": "Cần phun phòng nấm thán thư định kỳ, đặc biệt là sau các cơn mưa đêm, và thực hiện bao trái khi trái đạt kích thước quả trứng gà."
+  },
+  {
+    "question": "Trái cam bị 'nổ vỏ' (nứt dọc) là do đâu?",
+    "answer": "Do cây bị khô hạn lâu ngày rồi gặp mưa lớn đột ngột, thịt trái hút nước quá nhanh làm vách vỏ bị xé rách."
+  },
+  {
+    "question": "Tại sao lá ổi bị cháy sém ở chóp lá và mép lá như bị hơ lửa?",
+    "answer": "Đây là dấu hiệu điển hình của việc dư thừa muối (mặn) trong đất hoặc phun phân bón lá quá nồng độ vào lúc nắng gắt."
+  },
+  {
+    "question": "Con rệp sáp dính màu đỏ trên cây cam quýt trị bằng cách nào?",
+    "answer": "Loại này có vỏ cứng, nên dùng thuốc lưu dẫn kết hợp dầu khoáng (SK Enspray) để làm ngạt và xuyên thấu lớp vỏ sáp."
+  },
+  {
+    "question": "Tại sao hoa xoài ra rất nhiều nhưng không đậu trái nào?",
+    "answer": "Có thể do thiếu côn trùng thụ phấn, thời tiết quá lạnh (dưới 15°C) làm hạt phấn chết, hoặc do nấm phấn trắng bao phủ nhụy."
+  },
+  {
+    "question": "Bệnh đốm mắt cua trên lá ổi có làm rụng lá không?",
+    "answer": "Có, nếu mật độ đốm quá dày, lá sẽ mất khả năng quang hợp, chuyển sang màu vàng và rụng sớm."
+  },
+  {
+    "question": "Làm thế nào để phục hồi bộ rễ cam sau khi bị tuyến trùng?",
+    "answer": "Dùng thuốc đặc trị tuyến trùng (như Ethoprophos), sau đó 10 ngày tưới bổ sung Humic và Trichoderma để kích thích rễ mới phát triển."
+  },
+  {
+    "question": "Tại sao xoài sau khi hái xong vài ngày đã bị thối đen từ cuống lan xuống?",
+    "answer": "Do nấm Lasiodiplodia tấn công từ ngoài đồng nhưng chỉ phát bệnh khi trái chín. Cần cắt cuống dài và xử lý nước ấm sau hái."
+  },
+  {
+    "question": "Cây cam bị 'nghẹt cổ rễ' do trồng quá sâu xử lý thế nào?",
+    "answer": "Cần bới bớt đất quanh gốc để lộ phần cổ rễ ra cho thông thoáng, tránh để gốc bị ẩm ướt thường xuyên gây thối vỏ."
+  },
+  {
+    "question": "Tại sao thịt trái ổi lại có những đốm cứng như đá (tế bào đá)?",
+    "answer": "Đây là hiện tượng sinh lý bình thường của một số giống ổi, nhưng sẽ tăng lên nếu cây thiếu Boron hoặc bị khô hạn kéo dài."
+  },
+  {
+    "question": "Con sâu đục bông xoài khác gì với rầy bông xoài?",
+    "answer": "Sâu đục bông là ấu trùng bướm, chúng ăn rỗng cuống bông làm bông héo khô. Rầy bông xoài là côn trùng chích hút nhựa làm bông rụng."
+  },
+  {
+    "question": "Lá cam bị 'vàng lá sinh lý' vào mùa đông là sao?",
+    "answer": "Do nhiệt độ thấp làm rễ hoạt động kém, không hút đủ dinh dưỡng. Hiện tượng này sẽ hết khi thời tiết ấm trở lại."
+  },
+  {
+    "question": "Tại sao cây ổi bị rụng hết lá sau khi tôi xới đất bón phân?",
+    "answer": "Do xới quá sâu làm đứt nhiều rễ cái và rễ tơ, cây bị mất nước đột ngột nên phải rụng lá để tự bảo vệ."
+  },
+  {
+    "question": "Cách nhận biết xoài bị bệnh 'da cám' do nhện trắng?",
+    "answer": "Vỏ trái có những mảng sần sùi màu xám cám, thường tập trung ở phần gần cuống hoặc nơi trái khuất ánh sáng."
+  },
+  {
+    "question": "Trái cam bị 'chai cứng' và nhỏ xíu dù đã già là bệnh gì?",
+    "answer": "Đây thường là triệu chứng của bệnh Tristeza thể nhẹ hoặc cây bị thiếu hụt lân và kali trầm trọng."
+  },
+  {
+    "question": "Tại sao phải tỉa bỏ những quả ổi nhỏ mọc ở đầu cành?",
+    "answer": "Quả ở đầu cành dễ bị gió đánh làm trầy xước, khó bao trái và dễ bị nấm bệnh tấn công hơn các quả ở nách lá."
+  },
+  {
+    "question": "Bệnh mốc đen (Sooty mold) trên xoài có tự hết không?",
+    "answer": "Không tự hết nếu vẫn còn rầy rệp. Phải diệt nguồn dịch ngọt (rầy rệp) và phun nước áp lực mạnh để rửa trôi lớp mốc."
+  },
+  {
+    "question": "Làm sao để hạn chế hiện tượng cam bị 'vàng đít' sớm?",
+    "answer": "Bón phân cân đối, không lạm dụng phân bón lá chứa đạm cao ở giai đoạn cuối và kiểm tra xem có bị nhện đỏ chích hút không."
+  },
+  {
+    "question": "Tại sao lá xoài có những vết sọc trắng chạy dọc gân lá?",
+    "answer": "Đây là biểu hiện của thiếu hụt Magie (Mg). Phần thịt lá bị mất diệp lục tạo thành các vệt sáng màu xen kẽ gân lá."
+  },
+  {
+    "question": "Con sâu cuốn lá ổi thường xuất hiện vào thời điểm nào?",
+    "answer": "Xuất hiện quanh năm nhưng mạnh nhất vào các đợt cây ra đọt non, đặc biệt là khi thời tiết mát mẻ, ẩm độ cao."
+  },
+  {
+    "question": "Bệnh ghẻ lõm trên trái cam do nấm hay vi khuẩn?",
+    "answer": "Thường do nấm Elsinoe fawcettii gây ra, làm xuất hiện các vết lõm màu nâu, khác với bệnh loét vi khuẩn có vết lồi sần sùi."
+  },
+  {
+    "question": "Tại sao phải bôi keo liền sẹo vào vết cắt sau khi tỉa cành xoài?",
+    "answer": "Để ngăn chặn nước mưa và bào tử nấm (gây thối thân, xì mủ) xâm nhập trực tiếp vào mạch gỗ qua vết thương hở."
+  },
+  {
+    "question": "Trái ổi bị thâm đen một nửa từ phía dưới đít lên là bị gì?",
+    "answer": "Có thể là hiện tượng thối đít trái do thiếu Canxi hoặc bị nấm tấn công vào phần nhụy hoa còn sót lại ở đít quả."
+  },
+  {
+    "question": "Làm thế nào để trị rệp dính màu đen trên cành cam?",
+    "answer": "Dùng thuốc trừ sâu có hoạt chất dầu khoáng phối hợp với thuốc nội hấp, phun ướt đẫm cành để thuốc ngấm qua lớp vỏ cứng của rệp."
+  },
+  {
+    "question": "Tại sao cây xoài bị rụng lá xanh sau một trận mưa lớn kéo dài?",
+    "answer": "Do rễ bị ngạt nước (thiếu oxy), dẫn đến sản sinh hormone Abscisic acid gây rụng lá hàng loạt để giảm sự thoát hơi nước."
+  },
+  {
+    "question": "Cây ổi bị 'rỉ sắt' lá xử lý bằng thuốc gì?",
+    "answer": "Có thể dùng các loại thuốc chứa gốc lưu huỳnh hoặc các hoạt chất như Tebuconazole, Anvil (Hexaconazole)."
+  },
+  {
+    "question": "Tại sao trái cam sành bị 'bộp' (vỏ và thịt tách rời)?",
+    "answer": "Do thu hoạch quá lứa hoặc cây bị thiếu nước nghiêm trọng trong giai đoạn trái chín làm thịt trái co lại."
+  },
+  {
+    "question": "Con bọ vòi voi đục bông xoài gây hại như thế nào?",
+    "answer": "Chúng dùng vòi đục vào nụ hoa để đẻ trứng, sâu non nở ra ăn rỗng nụ làm bông khô và rụng đen gốc."
+  },
+  {
+    "question": "Làm cách nào để cây cam không bị rụng trái khi gặp sương muối?",
+    "answer": "Tưới nước rửa sương vào sáng sớm và bón thêm phân Kali trắng để tăng sức chống chịu nhiệt độ thấp cho cây."
+  },
+  {
+    "question": "Tại sao lá ổi già có những đốm màu tím hồng?",
+    "answer": "Đây thường là triệu chứng cây bị thiếu Lân hoặc bị nấm đốm lá tấn công trong điều kiện thời tiết chuyển lạnh."
+  },
+  {
+    "question": "Bệnh 'khô đầu lá' xoài có phải là do thiếu nước không?",
+    "answer": "Một phần do thiếu nước, nhưng chủ yếu do nấm Colletotrichum tấn công khi lá bị yếu hoặc do nồng độ muối trong đất cao."
+  },
+  {
+    "question": "Tại sao quả ổi bị méo mó, không tròn đều?",
+    "answer": "Do bị bọ trĩ chích hút một bên trái từ nhỏ hoặc do sự thụ phấn không đồng đều giữa các ngăn hạt."
+  },
+  {
+    "question": "Con nhện vàng gây hại trên cam quýt khác gì nhện đỏ?",
+    "answer": "Nhện vàng gây hại chủ yếu trên trái, làm trái bị mất bóng và chuyển sang màu xám sậm (da cám), trong khi nhện đỏ phá lá nhiều hơn."
+  },
+  {
+    "question": "Tại sao cây xoài con trồng mới thường bị héo lá ngọn?",
+    "answer": "Do rễ chưa bám đất hoặc bị nấm lở cổ rễ tấn công. Cần che mát cho cây con và tưới thuốc phòng nấm."
+  },
+  {
+    "question": "Làm thế nào để diệt trừ ốc sên ăn lá ổi vào ban đêm?",
+    "answer": "Dùng bả mồi có hoạt chất Metaldehyde rắc quanh gốc hoặc thu gom thủ công vào ban đêm khi chúng bò ra."
+  },
+  {
+    "question": "Tại sao vỏ trái cam bị thâm đen một mảng lớn sau khi phun thuốc gốc đồng?",
+    "answer": "Đây là hiện tượng cháy thuốc do phun nồng độ quá cao hoặc phun vào lúc trời nắng nóng gắt."
+  },
+  {
+    "question": "Cây xoài bị 'vàng lá cả vùng' trên vườn là do đâu?",
+    "answer": "Có thể do vùng đất đó bị trũng gây úng rễ hoặc có ổ tuyến trùng/nấm thối rễ đang lây lan rộng."
+  },
+  {
+    "question": "Làm sao để trái ổi có lớp vỏ bóng loáng và đẹp?",
+    "answer": "Cần cung cấp đủ Canxi, Boron và bảo vệ trái bằng túi bao chuyên dụng từ sớm để tránh gió và côn trùng làm xước vỏ."
+  }
+]
+

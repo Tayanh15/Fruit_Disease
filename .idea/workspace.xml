@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="292ba76b-85dc-414b-8607-8c377f80d5be" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Fruit_Disease.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Fruit_Disease.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/rag_model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>

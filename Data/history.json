@@ -1,0 +1,9 @@
+[
+    {
+        "image": "static/uploads\\Screenshot 2026-05-25 133125.png",
+        "result": "Healthy",
+        "confidence": 94.53,
+        "boxed": "static/uploads\\cam_20260608_213939.jpg",
+        "time": "2026-06-08 21:39:39"
+    }
+]
