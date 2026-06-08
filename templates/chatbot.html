@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>FruitAI Chatbot</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/CSS/chatbot.css">
+    <link rel="stylesheet" href="static/CSS/logout.css">
+    <link rel="stylesheet" href="static/CSS/nav.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- NAV -->
+<div class="nav">
+    <h2>🌱 FruitAI</h2>
+    <div>
+        <a href="/home">Home</a>
+        <a href="/detect">Nhận diện</a>
+        <a href="/history">Lịch sử</a>
+        <a href="/logout" class="logout-btn">
+            <i class="fas fa-sign-out-alt"></i> Đăng xuất
+        </a>
+    </div>
+</div>
+
+<div class="app">
+
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+        <button class="new-chat" onclick="newChat()">➕ New Chat</button>
+
+        <div class="history" id="historyList">
+            {% for chat in history %}
+                <div class="history-item">
+                    {{ chat.question[:30] }}...
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- MAIN -->
+    <div class="main">
+        <div class="container">
+
+            <div class="chat-header">
+                💬 Chatbot AI
+            </div>
+
+            <div class="chat-box" id="chatBox">
+                {% for chat in history %}
+                    <div class="message user">{{ chat.question }}</div>
+                    <div class="message bot">{{ chat.answer }}</div>
+                {% endfor %}
+            </div>
+
+            <div class="input-box">
+                <input type="text" id="userInput" placeholder="Nhập câu hỏi...">
+                <button onclick="sendMessage()">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<script>
+const chatBox = document.getElementById("chatBox");
+const input = document.getElementById("userInput");
+
+/* ENTER */
+input.addEventListener("keypress", e=>{
+    if(e.key==="Enter") sendMessage();
+});
+
+/* SCROLL */
+function scrollBottom(){
+    chatBox.scrollTop = chatBox.scrollHeight;
+}
+
+/* NEW CHAT */
+function newChat(){
+    chatBox.innerHTML="";
+}
+
+/* SEND */
+async function sendMessage(){
+    const text = input.value.trim();
+    if(!text) return;
+
+    chatBox.innerHTML += `<div class="message user">${text}</div>`;
+    input.value='';
+    scrollBottom();
+
+    const id = "typing-"+Date.now();
+    chatBox.innerHTML += `
+    <div class="message bot" id="${id}">
+        <div class="typing"><span></span><span></span><span></span></div>
+    </div>`;
+    scrollBottom();
+
+    try{
+        const res = await fetch('/chatbot',{
+            method:'POST',
+            headers:{'Content-Type':'application/x-www-form-urlencoded'},
+            body:`question=${encodeURIComponent(text)}`
+        });
+
+        const data = await res.json();
+        document.getElementById(id).remove();
+
+        chatBox.innerHTML += `<div class="message bot">${data.response}</div>`;
+        scrollBottom();
+
+    }catch{
+        document.getElementById(id).innerText="❌ Lỗi server!";
+    }
+}
+</script>
+
+</body>
+</html>

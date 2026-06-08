@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>FruitAI - Nhận diện bệnh trái cây</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="static/CSS/footer.css">
+  <link rel="stylesheet" href="static/CSS/index.css">
+  <link rel="stylesheet" href="static/CSS/logout.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- FONT -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="nav">
+    <h2>🌱 FruitAI</h2>
+    <div>
+        <a href="/home">home</a>
+        <a href="/history">Lich sử</a>
+        <a href="/chatbot">Chatbot</a>
+        <a href="/logout" class="logout-btn">
+            <i class="fas fa-sign-out-alt"></i> Đăng xuất
+        </a>
+    </div>
+</div>
+
+
+<div class="main-content">
+  <div class="container" id="detect">
+    <h2>🔍 Nhận diện bệnh</h2>
+
+    <div class="detect">
+
+      <!-- LEFT -->
+      <div class="card">
+
+        <h3>Tải ảnh trái cây</h3>
+
+        <form id="uploadForm" enctype="multipart/form-data">
+        <select id="fruitType" name="fruit_type">
+          <option value="">-- Chọn loại trái cây --</option>
+          <option value="apple">Táo</option>
+          <option value="mango">Xoài</option>
+          <option value="Luu">Lựu</option>
+          <option value="Tonghop">Tổng Hợp </option>
+        </select>
+          <div class="upload-box" onclick="document.getElementById('fileInput').click()">
+            Click để chọn ảnh
+          </div>
+
+          <input type="file" id="fileInput" name="image" hidden accept="image/*">
+
+          <div class="preview" id="preview"></div>
+
+          <button type="submit" class="btn" style="margin-top:15px;">
+            Nhận diện
+          </button>
+
+        </form>
+      </div>
+
+      <!-- RIGHT -->
+      <div class="card result">
+        <h3>Kết quả</h3>
+
+        <div id="loading" style="display:none;">⏳ Đang phân tích...</div>
+
+        <div id="resultContent">
+
+          {% if result %}
+            <p><b>🦠 Bệnh:</b> {{ result }}</p>
+            <p><b>🎯 Độ chính xác:</b> {{ confidence }}%</p>
+
+            <img src="/{{ img_path }}">
+
+            {% if heatmap_path %}
+              <p><b>🔥 Grad-CAM</b></p>
+              <img src="/{{ heatmap_path }}">
+            {% endif %}
+
+          {% else %}
+            <p>Chưa có dữ liệu</p>
+          {% endif %}
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-col brand">
+      <h2>🌱 FruitAI</h2>
+      <p>Ứng dụng AI hỗ trợ nông nghiệp thông minh.</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Liên hệ</h4>
+      <p><i class="fas fa-envelope"></i> AnhTay@gmail.com</p>
+      <p><i class="fas fa-phone"></i> 0358025524</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Kết nối</h4>
+      <div class="socials">
+        <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
+        <a href="#"><i class="fab fa-youtube"></i> YouTube</a>
+        <a href="#"><i class="fab fa-github"></i> GitHub</a>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+<script>
+  const fileInput = document.getElementById("fileInput");
+  const preview = document.getElementById("preview");
+  const form = document.getElementById("uploadForm");
+
+  fileInput.addEventListener("change", function() {
+    const file = this.files[0];
+    if (file) {
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        preview.innerHTML = `<img src="${e.target.result}">`;
+      }
+      reader.readAsDataURL(file);
+    }
+  });
+
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    const loading = document.getElementById("loading");
+    const result = document.getElementById("resultContent");
+
+    const file = fileInput.files[0];
+    if (!file) {
+      alert("Vui lòng chọn ảnh!");
+      return;
+    }
+
+    const fruitType = document.getElementById("fruitType").value;
+
+    if (!fruitType) {
+      alert("Vui lòng chọn loại trái cây!");
+      return;
+    }
+
+    const formData = new FormData();
+    formData.append("image", file);
+    formData.append("fruit_type", fruitType);
+
+    loading.style.display = "block";
+    result.innerHTML = "";
+
+    fetch("/detect", {
+      method: "POST",
+      body: formData
+    })
+    .then(res => res.text())
+    .then(html => {
+      const parser = new DOMParser();
+      const doc = parser.parseFromString(html, "text/html");
+
+      const newResult = doc.querySelector(".result").innerHTML;
+      result.innerHTML = newResult;
+
+      loading.style.display = "none";
+    })
+    .catch(err => {
+      loading.style.display = "none";
+      result.innerHTML = "❌ Lỗi server!";
+    });
+  });
+
+  function scrollToDetect() {
+    document.getElementById("detect").scrollIntoView({ behavior: "smooth" });
+  }
+</script>
+
+</body>
+</html>
