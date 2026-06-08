@@ -1,0 +1,11 @@
+flask
+flask_sqlalchemy
+torch
+torchvision
+pillow
+numpy
+opencv-python
+faiss-cpu
+sentence-transformers
+transformers
+google-generativeai
