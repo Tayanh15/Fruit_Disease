@@ -5,5 +5,12 @@
         "confidence": 94.53,
         "boxed": "static/uploads\\cam_20260608_213939.jpg",
         "time": "2026-06-08 21:39:39"
+    },
+    {
+        "image": "static/uploads\\Screenshot 2026-04-06 151544.png",
+        "result": "Anthracnose",
+        "confidence": 97.153,
+        "boxed": "static/uploads\\cam_20260609_143704.jpg",
+        "time": "2026-06-09 14:37:04"
     }
 ]

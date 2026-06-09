@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: #F1F8E9;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex: 1;
+}
+
+/* ===== NAV ===== */
+
+/* ===== HERO ===== */
+.hero {
+    position: relative;
+    height: 500px;
+
+    background: url("https://images.unsplash.com/photo-1501004318641-b39e6451bec6") no-repeat center/cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+/* lớp phủ tối nhẹ cho dễ đọc chữ */
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+/* nội dung */
+.hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 700px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* nút */
+.btn {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #66BB6A;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #43A047;
+    transform: scale(1.05);
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: white;
+    color: #2E7D32;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+/* ===== FEATURES ===== */
+.section {
+    padding: 60px 30px;
+    text-align: center;
+}
+
+.section h2 {
+    margin-bottom: 30px;
+}
+
+.features {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.feature {
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.feature:hover {
+    transform: translateY(-5px);
+}
+
+.feature i {
+    font-size: 30px;
+    color: #2E7D32;
+    margin-bottom: 10px;
+}
+
+
+/* ===== RESPONSIVE ===== */
+@media(max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero img {
+        margin-top: 20px;
+    }
+}

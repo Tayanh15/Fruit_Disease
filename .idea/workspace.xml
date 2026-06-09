@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="292ba76b-85dc-414b-8607-8c377f80d5be" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/utils/rag_model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/history.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instance/fruitai.db" beforeDir="false" afterPath="$PROJECT_DIR$/instance/fruitai.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CSS/chatbot.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/CSS/chatbot.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CSS/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/CSS/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CSS/history.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/CSS/history.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CSS/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/CSS/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CSS/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/CSS/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CSS/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/CSS/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CSS/logout.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/CSS/logout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CSS/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/CSS/nav.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CSS/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/CSS/register.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +67,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/k59ta/PycharmProjects/Fruit_Disease"
   }
 }]]></component>
   <component name="SharedIndexes">
